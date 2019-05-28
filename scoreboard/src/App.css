@@ -1,0 +1,50 @@
+.App 
+{
+  padding: 0;
+  margin: 2%;
+}
+
+#gol-button
+{
+  background: mediumturquoise;
+  color: white;
+  border-radius: 3px;
+  border-style: solid;
+  
+}
+
+.scoreboard
+{
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  
+  margin: 1%;
+
+  width: 200px;
+  height: 170px;
+  
+  border-style: none;
+  border-radius: 4px;
+  background: gray;
+}
+
+.macth
+{
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  
+  margin: 1%;
+  width: 200px;
+  height: 100px;
+  font-size: 0.8em;
+}
+
+.larger-container
+{
+  display: flex;
+	flex-direction: row;
+  align-items: center;
+  
+}
